@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_add_friends"
+        android:icon="@drawable/ic_add_new_friends_blue"
+        android:title="Add new friends"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_new_message"
+        android:icon="@drawable/ic_pen_blue"
+        android:title="New Message"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/menu_sign_out"
+        android:icon="@drawable/ic_logging_out"
+        android:title="Sign Out"
+        app:showAsAction="ifRoom"></item>
+
+    
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "895248186348",
+    "project_id": "kotlinfirebasemessenger-50a09",
+    "storage_bucket": "kotlinfirebasemessenger-50a09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895248186348:android:ca30c3bcbd48aea9b19ec9",
+        "android_client_info": {
+          "package_name": "com.example.stakasaki.kotlinfirebasemessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895248186348-hfqarvj6dthifs0u9mu2s39dtn940uaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLh-JgwAxT2KT0MxZr-S8QL3zG6B54tt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895248186348-hfqarvj6dthifs0u9mu2s39dtn940uaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
