@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_light">
+    android:background="@android:color/holo_orange_light">
 
     <EditText
         android:id="@+id/email_edittext_login"
@@ -20,7 +20,7 @@
         android:paddingLeft="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <EditText
         android:id="@+id/password_edittext_login"
@@ -61,4 +61,14 @@
         app:layout_constraintEnd_toEndOf="@+id/login_button_login"
         app:layout_constraintStart_toStartOf="@+id/login_button_login"
         app:layout_constraintTop_toBottomOf="@+id/login_button_login" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cat_ball" />
 </androidx.constraintlayout.widget.ConstraintLayout>

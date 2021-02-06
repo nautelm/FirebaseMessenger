@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".splash.SplashActivity"
-                android:theme="@style/Theme.AppCompat.Light.NoActionBar">   // splash画面ではactionbarを非表示
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar">   
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,12 +23,12 @@
         <activity android:name=".messages.NewMessageActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".messages.LatestMessagesActivity" />    // アプリのメイン画面に戻る
+                android:value=".messages.LatestMessagesActivity" />
         </activity>
         <activity android:name=".messages.ChatLogActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".messages.LatestMessagesActivity" />    // アプリのメイン画面に戻る
+                android:value=".messages.LatestMessagesActivity" />
         </activity>
     </application>
 

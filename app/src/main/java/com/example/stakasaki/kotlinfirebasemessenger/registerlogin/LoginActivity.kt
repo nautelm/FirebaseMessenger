@@ -41,7 +41,8 @@ class LoginActivity: AppCompatActivity() {
 
         // 登録画面に戻る
         back_to_register_textview.setOnClickListener {
-            finish()
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
         }
     }
 }

@@ -19,7 +19,7 @@
     <string name="Email">メールアドレス</string>
     <string name="Password">パスワード</string>
     <string name="Register">新規登録</string>
-    <string name="toLogin">ログインする→</string>
+    <string name="toLogin">ログインする</string>
     <string name="Login">ログイン</string>
-    <string name="BackToRegister">登録画面に戻る→</string>
+    <string name="BackToRegister">新規登録する</string>
 </resources>

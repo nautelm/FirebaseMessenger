@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_light"
+    android:background="@android:color/holo_orange_light"
     tools:context=".registerlogin.RegisterActivity">
 
     <EditText
@@ -97,9 +97,9 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/selectphoto_imageview_register"
-        app:civ_border_width="4dp"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        app:civ_border_width="4dp"
         app:layout_constraintBottom_toBottomOf="@+id/selectphoto_button_register"
         app:layout_constraintEnd_toEndOf="@+id/selectphoto_button_register"
         app:layout_constraintStart_toStartOf="@+id/selectphoto_button_register"

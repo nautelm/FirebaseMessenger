@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import com.example.stakasaki.kotlinfirebasemessenger.R
 import com.example.stakasaki.kotlinfirebasemessenger.models.ChatMessage
 import com.example.stakasaki.kotlinfirebasemessenger.models.User
+import com.example.stakasaki.kotlinfirebasemessenger.registerlogin.LoginActivity
 import com.example.stakasaki.kotlinfirebasemessenger.registerlogin.RegisterActivity
 import com.example.stakasaki.kotlinfirebasemessenger.views.LatestMessageRow
 import com.google.firebase.auth.FirebaseAuth
@@ -122,7 +123,7 @@ class LatestMessagesActivity : AppCompatActivity() {
     private fun verifyUserIsLoggedIn() {
         val uid = FirebaseAuth.getInstance().uid
         if (uid == null) {
-            val intent = Intent(this, RegisterActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
             startActivity(intent)
         }
@@ -136,7 +137,7 @@ class LatestMessagesActivity : AppCompatActivity() {
             }
             R.id.menu_sign_out -> {
                 FirebaseAuth.getInstance().signOut()
-                val intent = Intent(this, RegisterActivity::class.java)
+                val intent = Intent(this, LoginActivity::class.java)
                 intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
                 startActivity(intent)
             }

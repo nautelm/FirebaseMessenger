@@ -38,8 +38,7 @@ class RegisterActivity : AppCompatActivity() {
             Log.d("RegisterActivity", "Try to show login activity")
 
             // LoginActivityに遷移
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
+            finish()
         }
 
         // プロフィール画像をスマホの画像フォルダから選択する
